@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eleições Brasil! A festa da democracia!</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" /> 
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/style.css" />
+			</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header-wrapper">
+				<div id="header" class="container">
+					
+					<!-- Logo -->
+						<h1 id="logo"><a href="index.html">
+                                                    <script type="text/javascript">
+                    var message = "Eleições Brasil";
+                    var colors = new Array("#008000","#0000CD","#FFD700"); // red, green, blue
+                    for (var i = 0; i < message.length; i++)
+                       document.write("<span style=\"color:" + colors[(i % colors.length)] + ";\">" + message[i] + "</span>");
+                </script>
+                                                    </a></h1>
+                                                <p><strong>Decidir o seu futuro é cidadania!</strong></p>
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a class="icon fa-home" href="index.html"><span>Início</span></a></li>
+								<li><a class="icon fa-cog" href="left-sidebar.html"><span>Votações</span></a></li>
+                                                                <li><a class="icon fa-retweet" href="right-sidebar.html"><span>Resultados Parciais Gerais</span></a></li>
+                                                                <li>
+									<a href="" class="icon fa-bar-chart-o"><span>Resultados Parciais Por estado</span></a>
+									<ul>
+										<li><a href="#">Presidente</a></li>
+										<li><a href="#">Governador</a></li>
+										<li><a href="#">Senador</a></li>
+										<li>
+											<a href="">Deputado</a>
+											<ul>
+												<li><a href="#">Federal</a></li>
+												<li><a href="#">Estadual</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Prefeito</a></li>
+                                                                                <li><a href="#">Vereador</a></li>
+                                                                                
+									</ul>
+								</li>
+								<li><a class="icon fa-sitemap" href="no-sidebar.html"><span>Login</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</div>
+			
+		<!-- Search bar -->
+			<div id="features-wrapper">
+				<section id="features" class="container">
+					<header>
+						<h2>Cadastre-se e exercite seu direito!</h2>
+					</header>
+                                            <form name='dados' action='cadastro.php'  method='POST' >
+        <div align="left">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                </br>
+                <!-- Label: nome do campo onde o usuário escrevera as informações. o 'For' define para qual input ele pertence, sendo identificado pelo id !-->
+                <!-- input: campo onde recebera as informações, podendo ser de vários tipos, como hidden, checkbox, radio, para recuperar estas informações, 
+                precisamos dar um nome a este input, atenção: na outra pagina de captura dos dados, o nome tem que estar idêntico.
+                !-->
+                <label for='name'>Nome*  </label>                        
+                    <input type="text" name="nome"  id="name" />
+                    </br>
+                <label for='sobrenome'>Sobrenome*  </label>                      
+                    <input type="text" name="sobrenome"  id="sobrenome" />
+                    </br>
+                <label for='rg'>RG*  </label>                      
+                    <input type="text" name="rg"  id="rg" />
+                    </br>
+                <label for='cpf'>CPF*  </label>                      
+                    <input type="text" name="cpf"  id="cpf" />
+                    </br>
+                <label for='nasc'>Data de Nascimento*  </label>                      
+                    <input type="text" name="nasc"  id="nasc" />
+                    </br>
+                <label for='endereco'>Endereço*  </label>                        
+                    <input type="text" name="endereco"  id="endereco" />
+                    </br>
+                <label for='cidade'>Cidade*  </label>                        
+                    <select name="cidade" id="cidade">
+                        <option value="">Selecione</option>
+                    </select>
+                    </br>
+                <label for='estado'>Estado*  </label>                     
+                    <select name="uf" id="uf">
+                        <option value="">Selecione</option>
+                    </select>
+                    </br>
+                <label for='fone'>Telefone*  </label>                     
+                <input type="text" name="fone"  id="fone" />
+                    </br>
+                <label for='partido'>Informe o partido a que é afiliado*  </label>                     
+                    <input type="text" name="partido"  id="partido" />
+                    </br>
+                <label for='email'>E-mail*  </label>                     
+                    <input type="email" name="email"  id="email" />
+                    </br>
+                <label for='senha'>Senha*  </label>                     
+                    <input type="text" name="senha"  id="senha" />
+                    </br>
+                <label for='confirma'>Confirme sua senha*  </label>                     
+                    <input type="text" name="confirma"  id="confirma" />
+                    </br>
+            </fieldset>
+        </div>
+            <input type="submit" name="cadastro" title="Cadastrar" value="Cadastrar" />
+            
+            </form>
+                                            
+                                            
+				</section>		
+			</div>
+		
+		<!-- Banner -->
+			<div >
+				
+			</div>
+
+		<!-- Footer -->
+                            
+				<div id="footer" class="container">
+					<!--footer-->
+						<div class="6u">
+							<section>
+                                                            <p>
+                                                                
+                                                            </p>
+								<div class="row">
+									<div class="6u">
+										<ul class="icons">
+											<li class="icon fa-home">
+												Rua dos  Alfeneiros, 934<br />
+												Curitiba, PR CEP 80000-000<br />
+												BRA
+											</li>
+											<li class="icon fa-phone">
+												(99) 9999-0000
+											</li>
+											<li class="icon fa-envelope">
+												<a href="#">info@eleicoes.br</a>
+											</li>
+										</ul>
+									</div>
+									<div class="6u">
+										<ul class="icons">
+											<li class="icon fa-twitter">
+												<a href="#">@Eleicoes</a>
+											</li>
+											<li class="icon fa-instagram">
+												<a href="#">instagram.com/Eleicoes</a>
+											</li>
+											<li class="icon fa-dribbble">
+												<a href="#">dribbble.com/Eleicoes</a>
+											</li>
+											<li class="icon fa-facebook">
+												<a href="#">facebook.com/Eleicoes</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+				<div id="copyright" class="container">
+					<ul class="links">
+						<li>&copy; TADS Produções. Todos os direitos reservados.</li><li>Powered by: TADSacanagem</li>
+					</ul>
+				</div>
+			</div>
+
+	</body>
+</html>
